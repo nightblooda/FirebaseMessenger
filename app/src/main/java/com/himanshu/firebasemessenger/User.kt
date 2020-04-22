@@ -2,7 +2,7 @@ package com.himanshu.firebasemessenger
 
 import android.os.Parcel
 import android.os.Parcelable
-
+// Android Extension for parcelable
 class User(val uid: String?, val username: String?, val imgUrl: String?): Parcelable{
     constructor(parcel: Parcel) : this(
         parcel.readString(),

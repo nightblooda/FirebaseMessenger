@@ -8,7 +8,7 @@
 
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img_chat_from"
+        android:id="@+id/img_chat_to"
         android:layout_width="50dp"
         android:layout_height="50dp"
         app:civ_border_width="2dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textview_chat_from"
+        android:id="@+id/textview_chat_to"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dp"
@@ -28,6 +28,6 @@
         android:maxWidth="240dp"
         android:padding="16dp"
         android:text="This is the text message from from_chat layout"
-        app:layout_constraintEnd_toStartOf="@+id/img_chat_from"
-        app:layout_constraintTop_toTopOf="@+id/img_chat_from" />
+        app:layout_constraintEnd_toStartOf="@+id/img_chat_to"
+        app:layout_constraintTop_toTopOf="@+id/img_chat_to" />
 </androidx.constraintlayout.widget.ConstraintLayout>
